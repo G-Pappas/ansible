@@ -27,7 +27,7 @@ Follow the steps below to use each script effectively:
 ### 👤 createAnsibleUser
 
 1. Open a terminal.
-2. Navigate to the directory containing the `createAnsibleUser` script.
+2. Navigate to the directory containing the `AnsibleUser` script.
 3. Execute the script by running the following command:
 
    ```bash
@@ -37,7 +37,7 @@ Follow the steps below to use each script effectively:
 
 ### 💻 addHosts
 1. Open a terminal.
-2. Navigate to the directory containing the addHosts script
+2. Navigate to the directory containing the `addHosts` script
 3. Execute the script by running the following command:
    ```bash
    ./addHosts
