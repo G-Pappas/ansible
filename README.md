@@ -1,6 +1,6 @@
 # Fancy README for GitHub
 
-## Description
+## 📚 Description
 
 Welcome to the Fancy README for the Ansible Automation Repository! This repository contains helpful bash scripts for user management and inventory configuration using Ansible. The scripts included are:
 
@@ -16,7 +16,7 @@ This bash script simplifies the process of configuring the inventory file by pro
 
 This bash script automates the creation of the Ansible configuration file and verifies communication with the hosts
 
-## Prerequisites
+## 🛠️ Prerequisites
 
 To utilize these scripts, ensure you have the following prerequisites in place:
 
@@ -24,10 +24,10 @@ To utilize these scripts, ensure you have the following prerequisites in place:
 - Bash shell environment
 - Ansible installed
 
-## Contributing
+## 🤝 Contributing
 Contributions to this repository are always welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 We would like to express our gratitude to the open-source community for their continuous support and contributions.
 
 Happy automating with Ansible! 🚀
