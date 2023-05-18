@@ -24,7 +24,7 @@ To utilize these scripts, ensure you have the following prerequisites in place:
 
 Follow the steps below to use each script effectively:
 
-### createAnsibleUser
+### 👤 createAnsibleUser
 
 1. Open a terminal.
 2. Navigate to the directory containing the `createAnsibleUser` script.
@@ -35,7 +35,7 @@ Follow the steps below to use each script effectively:
  4. The script will create a user named "ansible" (unless specified otherwise) with sudo privileges.
  5. Upon successful execution, the "ansible" user will be able to run commands without requiring a password.
 
-### addHosts
+### 📝 addHosts
 1. Open a terminal.
 2. Navigate to the directory containing the addHosts script
 3. Execute the script by running the following command:
