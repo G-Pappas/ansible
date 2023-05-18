@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Check if the script is run with sudo
-if [ "$EUID" -ne 0 ]; then
-    echo "Please run the script with sudo."
-    exit 1
-fi
 
 # Define the path to the config file
 config_file="/etc/ansible/ansible.cfg"
@@ -33,8 +28,9 @@ output=$(ansible all -m ping)
 
 # Check if the output contains the word "SUCCESS"
 if grep -q "SUCCESS" <<< "$output"; then
-    # Print a funny success message in green
-    echo -e "\033[32mSuccess! Everything is working fine.\033[0m"
+    # Print a funny success message in yellow
+    echo -e "\033[33mSuccess! Everything is working fine.\033[0m"
+    echo -e "$output"
 else
     # Print an error message in red along with the error output
     echo -e "\033[31mOh, shit! Something went wrong:\n$output\033[0m"
